@@ -271,6 +271,7 @@
 #![cfg_attr(error_generic_member_access, feature(error_generic_member_access))]
 
 // Orszem staging evidence marker for Phase 85 baseline promotion.
+// Orszem staging evidence marker for Phase 85 live fix validation.
 
 #[cfg(all(thiserror_nightly_testing, not(error_generic_member_access)))]
 compile_error!("Build script probe failed to compile.");
