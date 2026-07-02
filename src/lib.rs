@@ -275,6 +275,7 @@
 // Orszem staging evidence marker after container outcome preservation.
 // Orszem staging evidence marker for container availability diagnostics.
 // Orszem staging evidence marker after runner reason normalization.
+// Orszem staging evidence marker after writable runner path update.
 
 #[cfg(all(thiserror_nightly_testing, not(error_generic_member_access)))]
 compile_error!("Build script probe failed to compile.");
