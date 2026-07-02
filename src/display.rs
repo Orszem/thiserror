@@ -28,7 +28,8 @@ impl<'a> AsDisplay<'a> for Path {
 
     #[inline]
     fn as_display(&'a self) -> Self::Target {
-        self.display()
+        let display = self.display();
+        display
     }
 }
 
