@@ -13,7 +13,7 @@ pub struct IdentUnraw(Ident);
 
 impl IdentUnraw {
     pub fn new(ident: Ident) -> Self {
-        IdentUnraw(ident)
+        Self(ident)
     }
 
     pub fn to_local(&self) -> Ident {
