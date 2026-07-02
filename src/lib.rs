@@ -301,3 +301,5 @@ mod private;
 include!(concat!(env!("OUT_DIR"), "/private.rs"));
 
 // Phase 85 live validation marker: 20260702T212820Z
+
+// phase85 live baseline promotion proof 2026-07-02b
