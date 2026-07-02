@@ -271,6 +271,14 @@
 #![cfg_attr(error_generic_member_access, feature(error_generic_member_access))]
 
 // Orszem staging evidence marker for Phase 85 baseline promotion.
+// Orszem staging evidence marker for Phase 85 live fix validation.
+// Orszem staging evidence marker after container outcome preservation.
+// Orszem staging evidence marker for container availability diagnostics.
+// Orszem staging evidence marker after runner reason normalization.
+// Orszem staging evidence marker after writable runner path update.
+// Orszem staging evidence marker after hosted blob analysis runner update.
+// Orszem staging evidence marker after hosted diagnostics validator update.
+// Orszem staging evidence marker after digestless source-fact cache update.
 
 #[cfg(all(thiserror_nightly_testing, not(error_generic_member_access)))]
 compile_error!("Build script probe failed to compile.");
