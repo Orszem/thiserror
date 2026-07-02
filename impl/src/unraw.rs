@@ -62,7 +62,7 @@ impl Ord for IdentUnraw {
 
 impl PartialOrd for IdentUnraw {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        Some(Self::cmp(self, other))
+        Some(self.cmp(other))
     }
 }
 
