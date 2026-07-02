@@ -278,6 +278,7 @@
 // Orszem staging evidence marker after writable runner path update.
 // Orszem staging evidence marker after hosted blob analysis runner update.
 // Orszem staging evidence marker after hosted diagnostics validator update.
+// Orszem staging evidence marker after digestless source-fact cache update.
 
 #[cfg(all(thiserror_nightly_testing, not(error_generic_member_access)))]
 compile_error!("Build script probe failed to compile.");
