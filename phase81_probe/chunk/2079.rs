@@ -1,0 +1,3 @@
+pub fn phase81_chunk_2079() -> u64 {
+    2079u64.wrapping_mul(31).wrapping_add(7)
+}

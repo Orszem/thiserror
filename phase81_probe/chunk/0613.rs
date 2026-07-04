@@ -1,0 +1,3 @@
+pub fn phase81_chunk_613() -> u64 {
+    613u64.wrapping_mul(31).wrapping_add(7)
+}
