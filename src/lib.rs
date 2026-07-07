@@ -8,6 +8,7 @@
 //!
 //! This library provides a convenient derive macro for the standard library's
 //! [`std::error::Error`] trait.
+//! The public API is intentionally small and focused on deriving error types.
 //!
 //! <br>
 //!
